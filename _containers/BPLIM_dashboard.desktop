@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=BPLIM_dashboard
+Icon=/mnt/cephfs/colaborativo/DEE-BPLIM-Filial/Dashboard/work_area/bplim_logo.PNG
+Exec=/mnt/cephfs/colaborativo/DEE-BPLIM-Filial/containers/BPLIM_dashboard.sh
+Terminal=false
+Type=Application
+

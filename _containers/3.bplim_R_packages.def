@@ -1,0 +1,29 @@
+Bootstrap: docker
+From: ubuntu:20.04
+IncludeCmd: yes
+
+
+%environment
+
+  R_VERSION=4.1.0
+  export R_VERSION
+  R_CONFIG_DIR=/etc/R/
+  export R_CONFIG_DIR
+  export LC_ALL=C
+  export PATH=$PATH
+
+
+%labels
+
+  Author         :: Gustavo Iglesias and Miguel Portela -- BPLIM
+  Version        :: V0.0.1
+  Build_date     :: 2021 June 17
+
+
+%post
+
+  apt update
+  apt install -y apt-transport-https apt-utils software-properties-common
+  apt install -y r-base
+
+  R --slave -e 'install.packages(c("haven","benchmarkme"))'
