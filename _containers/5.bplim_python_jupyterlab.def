@@ -28,6 +28,5 @@ IncludeCmd: yes
   apt install -y python3-pip
   
   apt-get install -y firefox
-  xdg-settings set default-web-browser firefox.desktop
   pip3 install jupyterlab
 
