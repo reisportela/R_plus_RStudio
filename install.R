@@ -1,3 +1,5 @@
 install.packages("tidyverse")
 install.packages('haven')
 install.packages('here')
+install.packages('tinytex')
+tinytex::install_tinytex()
