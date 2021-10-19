@@ -9,3 +9,7 @@ One can define Linux packages to be installed in the container using the file `a
 ## RStudio direct link:
 
 > [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/reisportela/R_plus_RStudio/HEAD?urlpath=rstudio)
+
+or to the notebook
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/reisportela/R_plus_RStudio/HEAD)
